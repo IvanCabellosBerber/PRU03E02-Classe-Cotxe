@@ -29,5 +29,6 @@ public interface InterfaceCotxe {
      */
     public void aturarMotor(/*PRU03E02Cotxe_Ivan_Cabellos cotxe*/) throws Exception;
 
+
 }
 

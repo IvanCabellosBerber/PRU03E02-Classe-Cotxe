@@ -1,16 +1,19 @@
 public class PRU03E02Cotxe_Ivan_Cabellos extends CotxeAbstracte implements InterfaceCotxe{
 
+    public EstatsMotorCotxe estadoActual;
+
     public PRU03E02Cotxe_Ivan_Cabellos(String marca, String model, TipusCanvi tipuscanvi) {
         super(marca, model, tipuscanvi);
+        this.estadoActual = EstatsMotorCotxe.Aturat;
     }
 
-    private EstatsMotorCotxe estadoActual = EstatsMotorCotxe.Aturat;
 
-    private EstatsMotorCotxe getEstadoActual() {
+
+    public EstatsMotorCotxe getEstadoActual() {
         return estadoActual;
     }
 
-    private void setEstadoActual(EstatsMotorCotxe estatsMotorCotxe) {
+    public void setEstadoActual(EstatsMotorCotxe estatsMotorCotxe) {
         this.estadoActual = estatsMotorCotxe;
     }
 

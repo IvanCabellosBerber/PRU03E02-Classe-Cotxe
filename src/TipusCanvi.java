@@ -1,4 +1,4 @@
 public enum TipusCanvi {
     CanviAutomatic,
-    CanviManual;
+    CanviManual
 }
